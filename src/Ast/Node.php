@@ -2,7 +2,9 @@
 
 namespace Jitsu\Sql\Ast;
 
-/* Abstract syntax tree node base class. */
+/**
+ * Abstract base class for SQL syntax tree nodes.
+ */
 abstract class Node {
 
 	/* Use an array of values to set members. */

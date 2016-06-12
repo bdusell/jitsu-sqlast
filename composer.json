@@ -1,14 +1,11 @@
 {
   "name": "jitsu/sqlast",
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "../jitsu-string"
-    }
-  ],
   "autoload": {
     "psr-4": {
       "Jitsu\\Sql\\": "src/"
     }
+  },
+  "require": {
+    "jitsu/string": "^0.1.1"
   }
 }
